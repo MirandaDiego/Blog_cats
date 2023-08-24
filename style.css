@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+}
+
+body,
+button,
+input {
+    font-family: 'Mulish', sans-serif;
+}
+
+body,
+html {
+    font-size: 1.6rem;
+
+
+}
+
+main {
+    margin: 0 auto 3.4rem;
+}
+
+.container {
+
+    width: min(121.6rem, 100%);
+    margin: 0, auto;
+
+}
+
+#app {
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    min-height: 100vh;
+
+}
+
+header {
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: .7rem;
+    background: #065E7C;
+}
+
+.header {
+    width: min(121.6rem, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    background: #065E7C;
+    padding: 1.6rem .5rem;
+}
+
+.img img:first-child {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+header img {
+    width: 4.2rem;
+    height: 4.2rem;
+    border-radius: 999px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    width: 4.2rem;
+    height: 4.2rem;
+    align-items: center;
+    padding: .8rem;
+    border-radius: 9999px;
+    background: #F4FCFF;
+}
+
+.wraper-input label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+form {
+    flex: 1;
+}
+
+.wraper-input input {
+
+    width: 100%;
+    height: 4.0rem;
+    background-color: #387E96;
+    padding: 1.2rem;
+    border: 0;
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    outline: none;
+    color: #fff;
+
+}
+
+.wraper-input input::placeholder {
+    color: #fff;
+}
+
+
+.container img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    transition: 1.5s all;
+}
+.container img:hover{
+    filter: hue-rotate(7deg) contrast(101%) saturate(200%) ;
+    transform: scale(1.6) rotat(-2deg);
+
+    
+}
+
+.title {
+
+    margin-top: 3.1rem;
+    margin-bottom: 3.1rem;
+    padding: 0 1.5rem;
+
+
+}
+
+.container h1 {
+    color: #202024;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 160%;
+}
+
+.curtidas {
+    display: flex;
+    margin-top: .8rem;
+    gap: 1.2rem;
+}
+
+button.gostei {
+
+    width: 40px;
+    height: 40px;
+    background-image: url(images/like.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    border-radius: 999px;
+
+
+}
+
+button.naogostei {
+    width: 40px;
+    height: 40px;
+    background-image: url(images/dontlike.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+    border-radius: 999px;
+
+}
+
+button {
+    border: none;
+    background: #065E7C;
+}
+
+article {
+
+    font-size: 1.6rem;
+    color: #121214;
+    line-height: 160%;
+    padding: 0 1.5rem;
+}
+
+aside {
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+
+}
+
+aside h1 {
+    margin-bottom: 3.2rem;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+section .thumbnail {
+
+    display: flex;
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.thumbnail img {
+    width: 15.1rem;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.thumbnail span {
+    color: #202024;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 160%;
+
+}
+
+.thumbnail p {
+    color: #121214;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 160%;
+
+}
+
+footer {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #387E96;
+    text-align: center;
+    padding: 1.6rem;
+}
+
+@media(min-width: 1440px) {
+
+    #app {
+        display: flex;
+        width: 121.6rem;
+        margin: 4.4rem auto;
+        
+    }
+    .content-container{
+        width: 80.3rem; 
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content{
+        width: 38.4rem;
+        margin-left: 3.4rem;
+    }
+    .content .thumbnail{
+        width: 38.2rem;
+        max-height: 8.4rem;
+     
+        
+    }
+    .content .thumbnail span{
+        font-size: 1.8rem;
+       
+    }
+    .content .thumbnail p{
+        font-size: 1.2rem;
+        
+    }
+
+}
