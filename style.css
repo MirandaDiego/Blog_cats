@@ -120,11 +120,12 @@ form {
     object-fit: cover;
     transition: 1.5s all;
 }
-.container img:hover{
-    filter: hue-rotate(7deg) contrast(101%) saturate(200%) ;
+
+.container img:hover {
+    filter: hue-rotate(7deg) contrast(101%) saturate(200%);
     transform: scale(1.6) rotat(-2deg);
 
-    
+
 }
 
 .title {
@@ -232,10 +233,15 @@ section .thumbnail {
 }
 
 footer {
+    margin: 0 ; 
+    width: 100% !important; 
+    background-color: #387E96;
+}
+
+.div-footer {
     color: #FFF;
     font-size: 1.6rem;
     font-weight: 600;
-    background-color: #387E96;
     text-align: center;
     padding: 1.6rem;
 }
@@ -246,32 +252,38 @@ footer {
         display: flex;
         width: 121.6rem;
         margin: 4.4rem auto;
-        
+
     }
-    .content-container{
-        width: 80.3rem; 
+
+    .content-container {
+        width: 80.3rem;
     }
-    .title{
+
+    .title {
         display: flex;
         justify-content: space-between;
     }
-    .content{
+
+    .content {
         width: 38.4rem;
         margin-left: 3.4rem;
     }
-    .content .thumbnail{
+
+    .content .thumbnail {
         width: 38.2rem;
         max-height: 8.4rem;
-     
-        
+
+
     }
-    .content .thumbnail span{
+
+    .content .thumbnail span {
         font-size: 1.8rem;
-       
+
     }
-    .content .thumbnail p{
+
+    .content .thumbnail p {
         font-size: 1.2rem;
-        
+
     }
 
 }
