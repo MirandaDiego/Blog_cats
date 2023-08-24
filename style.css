@@ -68,7 +68,7 @@ header {
 header img {
     width: 4.2rem;
     height: 4.2rem;
-    border-radius: 999px;
+    border-radius: 50%;
 }
 
 .img {
@@ -78,7 +78,7 @@ header img {
     height: 4.2rem;
     align-items: center;
     padding: .8rem;
-    border-radius: 9999px;
+    border-radius: 50%;
     background: #F4FCFF;
 }
 
@@ -140,7 +140,7 @@ form {
     color: #202024;
     font-size: 2.4rem;
     font-weight: bold;
-    line-height: 160%;
+    line-height: 2.2rem;
 }
 
 .curtidas {
@@ -151,25 +151,25 @@ form {
 
 button.gostei {
 
-    width: 40px;
-    height: 40px;
+    width: 4.0rem;
+    height: 4.0rem;
     background-image: url(images/like.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 16px;
-    border-radius: 999px;
+    background-size: 1.6rem;
+    border-radius: 50%;
 
 
 }
 
 button.naogostei {
-    width: 40px;
-    height: 40px;
+    width: 4.0rem;
+    height: 4.0rem;
     background-image: url(images/dontlike.svg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 16px;
-    border-radius: 999px;
+    background-size: 1.6rem;
+    border-radius: 50%;
 
 }
 
@@ -182,7 +182,7 @@ article {
 
     font-size: 1.6rem;
     color: #121214;
-    line-height: 160%;
+    line-height: 2.2rem;
     padding: 0 1.5rem;
 }
 
@@ -219,7 +219,7 @@ section .thumbnail {
     color: #202024;
     font-size: 1.8rem;
     font-weight: bold;
-    line-height: 160%;
+    line-height: 2.2rem;
 
 }
 
@@ -227,7 +227,7 @@ section .thumbnail {
     color: #121214;
     font-size: 1.4rem;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 2.2rem;
 
 }
 
