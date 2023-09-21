@@ -150,7 +150,7 @@ form {
     gap: 1.2rem;
 }
 
-button.gostei {
+button.liked {
 
     width: 4.0rem;
     height: 4.0rem;
@@ -163,7 +163,7 @@ button.gostei {
 
 }
 
-button.naogostei {
+button.dontliked {
     width: 4.0rem;
     height: 4.0rem;
     background-image: url(images/dontlike.svg);
